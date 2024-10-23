@@ -1,0 +1,42 @@
+.groupSelector {
+    padding: 2.5px;
+    width: auto;
+}
+
+.buttonContainer {
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    width: 220px;
+    background-color: #e9eaee;
+    border-radius: 8px;
+    margin-top: 11px;
+    z-index: 10;
+}
+
+.dropdownMenu > * {
+    width: 100%;
+}
+
+.actionButton {
+    background: #ffffff;
+    border: 2px solid #c1c1c1;
+    border-radius: 5px;
+}
+
+.selectInput {
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .dropdownMenu {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 300px; /* Maximum width if needed */
+    }
+}

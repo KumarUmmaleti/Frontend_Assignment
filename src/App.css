@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Utility classes for padding */
+.padding-10 {
+  padding: 5px 10px;
+}
+
+/* Font size adjustment */
+.text-small {
+  font-size: 15px;
+}
+
+/* Grey color for text */
+.text-grey {
+  color: rgb(91, 91, 91);
+}
+
+/* Flexbox for space between alignment */
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Flexbox for vertical stacking with gap */
+.flex-column-gap-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Positioning relative */
+.position-relative {
+  position: relative;
+}
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+  .flex-column-gap-10 {
+    padding: 0 10px;
+  }
+}
